@@ -61,7 +61,7 @@ body {
   text-decoration: none;
   padding: 13px 25px;
   border-radius: 1000px;
-  transition: background-color .3s ease-out, border .3s ease-out, color .3s ease-out;
+  transition: background-color 0.3s ease-out, border 0.3s ease-out, color 0.3s ease-out;
 }
 
 .our-btn:hover {
@@ -168,6 +168,16 @@ body {
   font-family: "Source Sans 3", sans-serif;
   font-size: 1.15rem;
   color: #9f9f9f;
+  cursor: pointer;
+}
+
+.pet-filter button:hover {
+  color: #7d7d7d;
+}
+
+.pet-filter .active,
+.pet-filter .active:hover {
+  color: #475aff;
 }
 
 .site-footer p {
